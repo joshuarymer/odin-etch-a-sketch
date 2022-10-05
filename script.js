@@ -4,3 +4,7 @@ for(i=0; i<256; i++) {
     div.classList.add('grid');
     uniCon.appendChild(div);
 }
+document.querySelectorAll('.grid').forEach((div) => {
+     div.addEventListener('mouseover', (e) =>
+     e.target.classList.add('hover'))
+     })
