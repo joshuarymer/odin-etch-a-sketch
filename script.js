@@ -24,17 +24,11 @@ function changeSize() {
              uniCon.innerHTML= '';
      
              for(i=0; i<(selectedSize*selectedSize); i++) {
-<<<<<<< HEAD
-                 div = document.createElement('div');
-                 div.classList.add('grid');
-                 uniCon.appendChild(div);
-=======
                 div = document.createElement('div');
                 div.classList.add('grid');
                 div.style.height = 800/selectedSize + "px";
                 div.style.width = 800/selectedSize + "px";
                 uniCon.appendChild(div);
->>>>>>> bdcde2c (Add size-select button, add changeSize())
              };
 
              document.querySelectorAll('.grid').forEach((div) => {
