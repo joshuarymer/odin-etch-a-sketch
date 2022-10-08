@@ -4,12 +4,13 @@
     flex-wrap: wrap;
     height: 800px;
     width: 800px;
+    box-sizing: border-box;
+
  }
 
 .grid {
     border: 1px solid red;
-    height: 48px;
-    width: 48px;
+    box-sizing: border-box;
 }
 
 .hover {
